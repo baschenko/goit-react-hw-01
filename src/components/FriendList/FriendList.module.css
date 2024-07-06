@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-evenly;
+  width: 900px;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.item {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  margin-left: 10px;
+
+  &:hover {
+    box-shadow: 2px 2px 4px 4px gray;
+  }
+}

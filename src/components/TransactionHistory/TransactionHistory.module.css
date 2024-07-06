@@ -1,0 +1,31 @@
+.table {
+  margin: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 800px;
+  font-size: 26px;
+  line-height: 1.75;
+  border-collapse: collapse;
+  border: 1px solid black;
+
+  tr:nth-child(even) {
+    background-color: #d9d5d5;
+  }
+
+  tbody tr:hover {
+    background-color: aquamarine;
+  }
+  td {
+    border: 1px solid black;
+    text-transform: capitalize;
+  }
+}
+
+.tableHead {
+  background-color: #302f2f;
+  color: white;
+
+  th {
+    border: 1px solid black;
+  }
+}
